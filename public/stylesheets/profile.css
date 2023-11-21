@@ -10,7 +10,12 @@ body {
   margin: 0 auto;
   padding: 20px;
 }
-
+.flex {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  align-items: start;
+}
 .cards {
   background-color: #fff;
   border-radius: 5px;
